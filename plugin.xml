@@ -59,7 +59,7 @@
 		<framework src="src/android/build.gradle" custom="true" type="gradleReference" />
 
 		<!-- Default versions for Gradle dependencies -->
-		<preference name="ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION" default="17.0.0" />
+		<!-- <preference name="ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION" default="17.0.0" /> -->
 		<preference name="ANDROID_PLAY_SERVICES_AUTH_VERSION" default="19.0.0" />
 		<preference name="ANDROID_FIREBASE_ANALYTICS_VERSION" default="19.0.0" />
 		<preference name="ANDROID_FIREBASE_MESSAGING_VERSION" default="22.0.0" />
@@ -69,14 +69,14 @@
 		<preference name="ANDROID_FIREBASE_INAPPMESSAGING_VERSION" default="20.0.0" />
 		<preference name="ANDROID_FIREBASE_FIRESTORE_VERSION" default="23.0.2" />
 		<preference name="ANDROID_FIREBASE_FUNCTIONS_VERSION" default="20.0.0" />
-			<preference name="ANDROID_FIREBASE_IID_VERSION" default="21.1.0" />
+		<preference name="ANDROID_FIREBASE_IID_VERSION" default="21.1.0" />
 		<preference name="ANDROID_FIREBASE_INSTALLATIONS_VERSION" default="17.0.0" />
 		<preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="18.1.0" />
 		<preference name="ANDROID_FIREBASE_CRASHLYTICS_NDK_VERSION" default="18.1.0" />
 		<preference name="ANDROID_GSON_VERSION" default="2.8.7" />
 		<preference name="ANDROID_FIREBASE_PERF_GRADLE_PLUGIN_VERSION" default="1.4.0" />
 
-		<framework src="com.google.android.gms:play-services-tagmanager:$ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION" />
+		<!-- <framework src="com.google.android.gms:play-services-tagmanager:$ANDROID_PLAY_SERVICES_TAGMANAGER_VERSION" /> -->
 		<framework src="com.google.android.gms:play-services-auth:$ANDROID_PLAY_SERVICES_AUTH_VERSION" />
 		<framework src="com.google.firebase:firebase-analytics:$ANDROID_FIREBASE_ANALYTICS_VERSION" />
 		<framework src="com.google.firebase:firebase-messaging:$ANDROID_FIREBASE_MESSAGING_VERSION" />
@@ -152,7 +152,7 @@
 				<pod name="Firebase/Functions" spec="8.4.0"/>
 				<pod name="Firebase/Installations" spec="8.4.0"/>
 				<pod name="GoogleSignIn" spec="5.0.2"/>
-				<pod name="GoogleTagManager" spec="7.3.1"/>
+				<!-- <pod name="GoogleTagManager" spec="7.3.1"/> -->
 			</pods>
 		</podspec>
 
